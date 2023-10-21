@@ -1,0 +1,968 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Fredoka One;
+}
+.container{
+    width: 74%;
+    margin: 0 auto;
+}
+body{
+    background: url("./img/1.png") no-repeat center/cover;
+
+}
+a {
+    text-decoration: none;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+
+
+.header {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.header-h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.i1{
+    position: absolute;
+    left: -13pc;
+    top: 0;
+}
+
+.a1 {color: #374A3D;
+    font-family: Gilroy;
+    font-size: 32.317px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.203px;
+    /* 102.741% */
+    text-transform: capitalize;}
+
+.header-navs {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.a2 {color: #1D3B53;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;}
+
+.a3 {
+
+    width: 110.166px;
+        height: 41.528px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        background: #0CA941;
+        color: #FFF;
+            font-family: Gilroy;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+}
+.a3:hover{
+background:#1D3B53
+}
+
+.hero {
+    display: flex;
+    padding: 100px 0;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.a4 {color: #374A3D;
+    font-family: Fredoka One;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76px;
+    /* 105.556% */
+    font-variant: small-caps;}
+
+.a5 {color: #0CA941;
+    font-family: Fredoka One;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76px;
+    font-variant: small-caps;}
+
+.a6 {color: #707070;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 177.778% */
+    font-variant: small-caps;}
+
+.hero-btns {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+.a7 {width: 179.785px;
+    height: 67.112px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    background: none;
+    border: 2px solid #0CA941;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;}
+.a7:hover{
+    background: #0CA941;
+}
+
+
+.a9 {
+    margin-left: 4pc;   
+    margin-top: 9pc;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.a10 {
+    position: relative;
+    z-index: 1;
+}
+
+.a11 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+.Give {
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    gap: 50px;
+        height: 234.679px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        background: #FFF;
+    
+        box-shadow: 23px 19px 138px -45px rgba(12, 169, 65, 0.13)
+}
+.i2{
+    margin-left: -8pc;
+    margin-top: -3pc;
+}
+.a12 {color: #374A3D;
+    font-family: Fredoka One;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 133.333% */
+    font-variant: small-caps;}
+
+.a13 {color: #5B7262;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: -1px;
+}
+
+.Give-number {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.Give-num {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.a14 {
+    position: relative;
+    z-index: 1;color: #0CA941;
+        font-family: Gilroy;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 42px;
+        /* 70% */
+        font-variant: small-caps;
+}
+
+.a15 {
+    position: absolute;
+    top: -1pc;
+    left: 0;
+    z-index: -1;
+}
+
+.a16 {
+    color: #678570;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        font-variant: small-caps;
+}
+
+.gardener {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+
+.a17 {color: #374A3D;
+    font-family: Fredoka One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    /* 122.222% */
+    font-variant: small-caps;}
+
+.a18 {color: #678570;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 20px 0;
+    line-height: 32px;
+    /* 177.778% */
+    font-variant: small-caps;}
+
+
+        .servise {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+    
+        .servise-blog {
+            position: relative;
+            width: 268.275px;
+                height: 264.459px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                background: #FFF;
+            
+                box-shadow: 8px 9px 42px 0px rgba(12, 169, 65, 0.12);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 20px;
+                z-index: -2;
+        }
+    
+        .servise-i {
+            position: relative;
+        }
+    
+        .a19 {
+            position: absolute;
+            left: -2pc;
+top: -1pc;            z-index: -1;
+
+ }
+     .a20 {
+     z-index: 1;
+ }
+     .a21 {color: #374A3D;
+     text-align: center;
+     font-family: Fredoka One;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px;
+     /* 108.333% */
+     font-variant: small-caps;}
+ .a22 {color: #678570;
+     text-align: center;
+     font-family: Gilroy;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 24px;
+     /* 150% */
+     font-variant: small-caps;}
+
+     .ml1{
+         margin-top: -13pc;
+     }
+
+     .ml2{
+         margin-top: 13pc;
+     }
+
+     
+   .ii1 {
+       position: absolute;
+       left: 15pc;
+       top: -2pc;
+       z-index: -3;
+   }
+        .ii2 {
+            position: absolute;
+            left: 15pc;
+            top: 13pc;
+            z-index: -22;
+        }
+         .ii3 {
+             position: absolute;
+             left: 543px;
+      z-index: -22;       top: 177px;
+         }
+
+
+
+ .a23{color: #374A3D;
+    text-align: center;
+    font-family: Fredoka One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    padding-top: 5pc;
+    padding-bottom: 1pc;
+    /* 166.667% */
+    font-variant: small-caps;}
+
+.a24 {color: #678570;
+    text-align: center;
+    font-family: Gilroy;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 177.778% */
+    font-variant: small-caps;}        
+
+ .Choose {
+    display: flex;
+    align-items: center;
+    margin-top: 5pc;
+    justify-content: space-between;
+ }
+
+ .Choose-blog {
+    width: 360px;
+        height: 437px;
+        flex-shrink: 0;
+        border-radius: 37px;
+        border: 0.5px solid rgba(0, 0, 0, 0.36);
+    
+        background: #FFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+ }
+
+ .a25 {color: #374A3D;
+    text-align: center;
+    font-family: Fredoka One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 125% */
+    font-variant: small-caps;}
+
+
+ .Choolsee {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+ }
+
+ .a27 {color: #678570;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+    font-variant: small-caps;
+width: 128.057px;
+    height: 43.929px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 0.5px solid rgba(55, 74, 61, 0.36);
+
+    background: #FFF;}
+ .a2a8{
+        margin-top: 30px;
+        text-align: center;
+        color: #374A3D;
+         font-family: Fredoka One;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 60px;
+            /* 166.667% */
+            /* font-variant: small-caps; */
+    }
+    .a29{
+        color: #678570;
+            text-align: center;
+            font-family: Gilroy;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+            /* 177.778% */
+            font-variant: small-caps;
+    }
+    #hellof{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hello{
+        width: 1170px;
+            height: 508.809px;
+            flex-shrink: 0;
+            border-radius: 19px;
+            display: flex;
+                margin-left: 5pc;
+                margin-top: 6pc;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+            background: #F8F8F8;
+    }
+
+
+        .hello-inp {
+            width: 491.346px;
+                height: 81.891px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                border: 1px solid #0CA941;
+            
+                display: flex;
+                align-items: center;
+                gap: 50px;
+                background: none;
+        }
+    
+        .a29 {
+            color: #C4C4C4;
+                text-align: center;
+                font-family: Gilroy;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 32px;
+                /* 177.778% */
+                font-variant: small-caps;
+                outline: none;
+                background: none;
+
+                border: none;
+        }
+    
+        .a30 {
+            width: 223.418px;
+                height: 81.891px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                background: #0CA941;
+                color: #FFF;
+                    text-align: center;
+                    font-family: Gilroy;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 32px;
+                    /* 177.778% */
+                    font-variant: small-caps;
+        }
+
+                .footer {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 5pc;    
+                }
+        
+                .ffoter-1 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+        
+        
+        
+                .a31 {color: #678570;
+                    font-family: Gilroy;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 32px;
+                    /* 177.778% */
+                    font-variant: small-caps;}
+        
+                .a32 {color: #374A3D;
+                    font-family: Gilroy;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 700;
+                    /* 145.455% */
+                    font-variant: small-caps;}
+        
+                .a33 {color: #678570;
+                    font-family: Gilroy;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 30px;
+                    font-variant: small-caps;}
+
+
+                  .footer-img {
+                    position: relative;
+                    margin-top: 9pc;
+                    margin-left: 5pc;    
+                  }
+               
+                  .logo2 {position: absolute;
+       animation: myAnimaaasas 5s ease 0s 1 normal forwards;         top:0.8pc;
+            left: 0;}
+                                .logo3 {
+                                    position: absolute;
+                    animation: myAnimaaasas 5s ease 0s 1 normal forwards;                top:0.8pc;
+                                    left: 14pc;
+                                }
+                  .logo4 {position: absolute;
+                top:0.8pc;
+          animation: myAnimaaasas 5s ease 0s 1 normal forwards;  left: 30pc;}
+                  .logo5 {position: absolute;
+                top:0.8pc;
+      animation: myAnimaaasas 5s ease 0s 1 normal forwards;      right: 27pc;}
+                  .logo6 {position: absolute;
+        animation: myAnimaaasas 5s ease 0s 1 normal forwards;        top:0.8pc;
+            right: 10pc;}
+
+
+
+            #header{
+                animation: myAnimaa 2s ease 0s 1 normal forwards;
+            }
+                        @keyframes myAnimaa {
+                            0% {
+                                animation-timing-function: ease-in;
+                                opacity: 1;
+                                transform: translateY(-45px);
+                            }
+            
+                            24% {
+                                opacity: 1;
+                            }
+            
+                            40% {
+                                animation-timing-function: ease-in;
+                                transform: translateY(-24px);
+                            }
+            
+                            65% {
+                                animation-timing-function: ease-in;
+                                transform: translateY(-12px);
+                            }
+            
+                            82% {
+                                animation-timing-function: ease-in;
+                                transform: translateY(-6px);
+                            }
+            
+                            93% {
+                                animation-timing-function: ease-in;
+                                transform: translateY(-4px);
+                            }
+            
+                            25%,
+                            55%,
+                            75%,
+                            87% {
+                                animation-timing-function: ease-out;
+                                transform: translateY(0px);
+                            }
+            
+                            100% {
+                                animation-timing-function: ease-out;
+                                opacity: 1;
+                                transform: translateY(0px);
+                            }
+                        }
+
+                        .footer-img{
+
+                        }
+
+                                                @keyframes myAnimaaasas {
+                                                    0% {
+                                                        animation-timing-function: ease-in;
+                                                        opacity: 1;
+                                                        transform: translateY(45px);
+                                                    }
+                        
+                                                    24% {
+                                                        opacity: 1;
+                                                    }
+                        
+                                                    40% {
+                                                        animation-timing-function: ease-in;
+                                                        transform: translateY(24px);
+                                                    }
+                        
+                                                    65% {
+                                                        animation-timing-function: ease-in;
+                                                        transform: translateY(12px);
+                                                    }
+                        
+                                                    82% {
+                                                        animation-timing-function: ease-in;
+                                                        transform: translateY(6px);
+                                                    }
+                        
+                                                    93% {
+                                                        animation-timing-function: ease-in;
+                                                        transform: translateY(4px);
+                                                    }
+                        
+                                                    25%,
+                                                    55%,
+                                                    75%,
+                                                    87% {
+                                                        animation-timing-function: ease-out;
+                                                        transform: translateY(0px);
+                                                    }
+                        
+                                                    100% {
+                                                        animation-timing-function: ease-out;
+                                                        opacity: 1;
+                                                        transform: translateY(0px);
+                                                    }
+                                                }
+
+
+                                                .hero-text{
+                                                    animation: myas 5s ease 0s 1 normal forwards;
+
+                                                }
+  
+    
+                                                                                         @keyframes myas {
+    
+        
+            
+            
+    
+            
+                                                                                                              0% {
+                                                                                                        animation-timing-function: ease-in;
+                                                                                                        opacity: 1;
+                                                                                                        transform: translateX(-48px);
+                                                                                                    }
+                                                
+                                                                                                    24% {
+                                                                                                        opacity: 1;
+                                                                                                    }
+                                                
+                                                                                                    40% {
+                                                                                                        animation-timing-function: ease-in;
+                                                                                                        transform: translateX(-26px);
+                                                                                                    }
+                                                
+                                                                                                    65% {
+                                                                                                        animation-timing-function: ease-in;
+                                                                                                        transform: translateX(-13px);
+                                                                                                    }
+                                                
+                                                                                                    82% {
+                                                                                                        animation-timing-function: ease-in;
+                                                                                                        transform: translateX(-6.5px);
+                                                                                                    }
+                                                
+                                                                                                    93% {
+                                                                                                        animation-timing-function: ease-in;
+                                                                                                        transform: translateX(-4px);
+                                                                                                    }
+                                                
+                                                                                                    25%,
+                                                                                                    55%,
+                                                                                                    75%,
+                                                                                                    87%,
+                                                                                                    98% {
+                                                                                                        animation-timing-function: ease-out;
+                                                                                                        transform: translateX(0px);
+                                                                                                    }
+                                                
+                                                                                                    100% {
+                                                                                                        animation-timing-function: ease-out;
+                                                                                                        opacity: 1;
+                                                                                                        transform: translateX(0px);
+                                                                                                    }
+                                                                                                }
+
+
+                                                                                                .hero-img{
+                                                                                                    animation: myasa 5s ease 0s 1 normal forwards;
+                                                                                                }
+                                                                                                                                                                                                @keyframes myasa {
+                                                                                                                                                                                                    0% {
+                                                                                                                                                                                                        animation-timing-function: ease-in;
+                                                                                                                                                                                                        opacity: 1;
+                                                                                                                                                                                                        transform: translateX(48px);
+                                                                                                                                                                                                    }
+                                                                                                
+                                                                                                                                                                                                    24% {
+                                                                                                                                                                                                        opacity: 1;
+                                                                                                                                                                                                    }
+                                                                                                
+                                                                                                                                                                                                    40% {
+                                                                                                                                                                                                        animation-timing-function: ease-in;
+                                                                                                                                                                                                        transform: translateX(26px);
+                                                                                                                                                                                                    }
+                                                                                                
+                                                                                                                                                                                                    65% {
+                                                                                                                                                                                                        animation-timing-function: ease-in;
+                                                                                                                                                                                                        transform: translateX(13px);
+                                                                                                                                                                                                    }
+                                                                                                
+                                                                                                                                                                                                    82% {
+                                                                                                                                                                                                        animation-timing-function: ease-in;
+                                                                                                                                                                                                        transform: translateX(6.5px);
+                                                                                                                                                                                                    }
+                                                                                                
+                                                                                                                                                                                                    93% {
+                                                                                                                                                                                                        animation-timing-function: ease-in;
+                                                                                                                                                                                                        transform: translateX(4px);
+                                                                                                                                                                                                    }
+                                                                                                
+                                                                                                                                                                                                    25%,
+                                                                                                                                                                                                    55%,
+                                                                                                                                                                                                    75%,
+                                                                                                                                                                                                    87%,
+                                                                                                                                                                                                    98% {
+                                                                                                                                                                                                        animation-timing-function: ease-out;
+                                                                                                                                                                                                        transform: translateX(0px);
+                                                                                                                                                                                                    }
+                                                                                                
+                                                                                                                                                                                                    100% {
+                                                                                                                                                                                                        animation-timing-function: ease-out;
+                                                                                                                                                                                                        opacity: 1;
+                                                                                                                                                                                                        transform: translateX(0px);
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                }
+                                                                                                                                                                                      .Give{
+                                                                                                                                                                                        animation: myAnim 2s ease 0s 1 normal forwards;@keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+                                                                                                                                                                                      }          @keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+.gardener-text{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+    @keyframes myAnim {
+            0% {
+                animation-timing-function: ease-in;
+                opacity: 0;
+                transform: translateX(-250px);
+            }
+    
+            38% {
+                animation-timing-function: ease-out;
+                opacity: 1;
+                transform: translateX(0);
+            }
+    
+            55% {
+                animation-timing-function: ease-in;
+                transform: translateX(-68px);
+            }
+    
+            72% {
+                animation-timing-function: ease-out;
+                transform: translateX(0);
+            }
+    
+            81% {
+                animation-timing-function: ease-in;
+                transform: translateX(-28px);
+            }
+    
+            90% {
+                animation-timing-function: ease-out;
+                transform: translateX(0);
+            }
+    
+            95% {
+                animation-timing-function: ease-in;
+                transform: translateX(-8px);
+            }
+    
+            100% {
+                animation-timing-function: ease-out;
+                transform: translateX(0);
+            }
+        }
+}
+.hero-btns{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}@keyframes myAnim {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+
+    38% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    55% {
+        animation-timing-function: ease-in;
+        transform: translateX(-68px);
+    }
+
+    72% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+
+    81% {
+        animation-timing-function: ease-in;
+        transform: translateX(-28px);
+    }
+
+    90% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+
+    95% {
+        animation-timing-function: ease-in;
+        transform: translateX(-8px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+}
+.servise{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}@keyframes myAnim {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translateX(250px);
+    }
+
+    38% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    55% {
+        animation-timing-function: ease-in;
+        transform: translateX(68px);
+    }
+
+    72% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+
+    81% {
+        animation-timing-function: ease-in;
+        transform: translateX(32px);
+    }
+
+    90% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+
+    95% {
+        animation-timing-function: ease-in;
+        transform: translateX(8px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+}.Choose-blog{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}@keyframes myAnim {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.a30:hover{
+    background: #F8F8F8;
+}
+.a29:hover{
+    width: 491.346px;
+        height: 81.891px;
+    background: #0CA941;
+}
